@@ -8,6 +8,7 @@ body{
 	color: black;
   display: block;
   margin: 8px;
+	overflow-wrap: break-word;
 }
 
 a{
