@@ -20,36 +20,36 @@ img{
 
 #home{
 	display: flex;
-	flex-direction: row;
-	align-items: center;
-	padding: 0px 12px;
-	position: absolute;
-	width: 108.12px;
-	height: 42px;
-	left: 200px;
-	top: 109px;
-	background: rgb(200 187 218);
-	border-radius: 182px;
-	font-size: 36px;
-	text-decoration: none;
-	text-transform: uppercase;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px 12px;
+  position: absolute;
+  width: 108.12px;
+  height: 42px;
+  left: 12px;
+  top: 10px;
+  background: rgb(193 194 221);
+  border-radius: 182px;
+  font-size: 36px;
+  text-decoration: none;
+  text-transform: uppercase;
 }
 
 #recipes{
 	display: flex;
-	flex-direction: row;
-	align-items: center;
-	padding: 0px 12px;
-	position: absolute;
-	width: 108.12px;
-	height: 42px;
-	left: 300px;
-	top: 109px;
-	background: rgb(200 187 218);
-	border-radius: 182px;
-	font-size: 36px;
-	text-decoration: none;
-	text-transform: uppercase;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px 12px;
+  position: absolute;
+  width: 149.12px;
+  height: 42px;
+  left: 165px;
+  top: 10px;
+  background: rgb(200 187 218);
+  border-radius: 182px;
+  font-size: 36px;
+  text-decoration: none;
+  text-transform: uppercase;
 }
 
 #nutrition{
@@ -58,11 +58,11 @@ img{
 	align-items: center;
 	padding: 0px 12px;
 	position: absolute;
-	width: 108.12px;
+	width: 196.12px;
 	height: 42px;
-	left: 400px;
-	top: 109px;
-	background: rgb(200 187 218);
+	left: 347px;
+	top: 10px;
+	background: rgb(203 188 215);
 	border-radius: 182px;
 	font-size: 36px;
 	text-decoration: none;
