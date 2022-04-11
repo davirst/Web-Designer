@@ -39,10 +39,11 @@ img{
 #menubtn-content{
 	display: none;
   position: absolute;
-  background-color: #f9f9f9;
+  background-color: #f1f1f100;
   min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  box-shadow: 0px 8px 16px 0px rgb(0 0 0 / 20%);
   z-index: 1;
+  border-radius: 10px;
 }
 
 #menubtn-content a {
@@ -50,6 +51,7 @@ img{
   padding: 12px 16px;
   text-decoration: none;
   display: block;
+	text-transform: uppercase;
 }
 
 #menubtn-content a:hover {
