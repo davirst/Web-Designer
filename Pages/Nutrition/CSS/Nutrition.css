@@ -1,6 +1,4 @@
-/*DAVID DEBRAH
-ASSIGNMENT 1
-CMPT304*/
+
 body{
 	background-image: url("bs.jpg");
   background-repeat: no-repeat, repeat;
@@ -20,7 +18,7 @@ body{
     font-size: 58px;
     font-style: oblique;
     background-color: #f5d5bc66;
-    padding: 20px; 
+    padding: 20px;
     overflow: auto;
     border-top-style: double;
     border-bottom-style: double;
@@ -88,7 +86,7 @@ body{
     margin-inline-end: 0px;
     font-size: 50px;
  }
- 
+
  td{
     text-align: center
  }
@@ -97,7 +95,7 @@ body{
     border-color: indigo;
     box-shadow: 5px 5px 5px 5px;
 }
-  
+
   th a{
     display: block;
     color: black;
@@ -110,4 +108,3 @@ body{
    th a:hover{
     background-color: #dcc5d7;
    }
-

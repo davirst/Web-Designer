@@ -1,6 +1,4 @@
-/*DAVID DEBRAH
-ASSIGNMENT 1
-CMPT304*/
+
 body{
 	background-image: url("bs.jpg");
   background-repeat: no-repeat, repeat;
@@ -23,7 +21,7 @@ a{
  	  border-style: solid;
  	  border-color: black;
  }
- 
+
    .header{
     padding: 15px;
     text-align: center;
@@ -134,7 +132,7 @@ a{
     font-size: 25px;
     position: absolute;
     top: 36%;
-} 
+}
 
 #instruct3 {
     text-align: left;
@@ -151,4 +149,3 @@ a{
   color: red;
   z-index: 9999;
 }
-
