@@ -6,6 +6,7 @@ body{
 	color: black;
   display: block;
 	overflow-wrap: break-word;
+	justify-content: center;
 }
 
 a{
@@ -22,12 +23,9 @@ img{
   flex-direction: row;
   align-items: center;
   padding: 0px 12px;
-  position: absolute;
   width: 108.12px;
   height: 42px;
-  left: 12px;
-  top: 10px;
-  background: rgb(193 194 221);
+  background: rgba(255, 255, 255, 0.24);
   border-radius: 182px;
   font-size: 36px;
   text-decoration: none;
@@ -39,52 +37,45 @@ img{
   flex-direction: row;
   align-items: center;
   padding: 0px 12px;
-  position: absolute;
   width: 149.12px;
   height: 42px;
-  left: 165px;
-  top: 10px;
   background: rgb(200 187 218);
+  border-radius: 182px;
+  font-size: 36px;
+  text-decoration: none;
+  text-transform: uppercase
+}
+
+#nutrition{
+	display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px 12px;
+  width: 196.12px;
+  height: 42px;
+  background: rgb(203 188 215);
   border-radius: 182px;
   font-size: 36px;
   text-decoration: none;
   text-transform: uppercase;
 }
 
-#nutrition{
-	display: flex;
-	flex-direction: row;
-	align-items: center;
-	padding: 0px 12px;
-	position: absolute;
-	width: 196.12px;
-	height: 42px;
-	left: 347px;
-	top: 10px;
-	background: rgb(203 188 215);
-	border-radius: 182px;
-	font-size: 36px;
-	text-decoration: none;
-	text-transform: uppercase;
-}
-
 #breakfast {
-	width: 500px;
-	align-content: center;
+	justify-content: center;
+	display: flex;
+	margin-top: auto;
 }
 
 h1{
-	 display: flex;
-   flex-direction: row;
-   align-items: center;
-   padding: 0px 13px;
-   position: absolute;
-   width: 261.12px;
-   height: 40px;
-   left: 606px;
-   top: 64px;
-   background: rgba(255, 255, 255, 0.24);
-   border-radius: 189px;
+	display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px 13px;
+  width: 261.12px;
+  height: 40px;
+  background: rgba(255, 255, 255, 0.24);
+  border-radius: 189px;
+  margin: auto;
  }
 
  h4{
@@ -92,16 +83,11 @@ h1{
 	 flex-direction: row;
 	 align-items: center;
 	 padding: 0px 13px;
-	 position: absolute;
-	 width: 387.12px;
+	 width: 340.12px;
 	 height: 47px;
-	 left: 1098px;
-	 top: 662px;
 	 background: rgba(255, 255, 255, 0.24);
 	 border-radius: 200px;
+	 margin-left: 456px;
+	 margin-top: auto;
+	 margin: auto;
  }
-
- #table{
-    border-color: indigo;
-    box-shadow: 5px 5px 5px 5px;
-}
