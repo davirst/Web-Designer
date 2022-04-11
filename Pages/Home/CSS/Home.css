@@ -18,6 +18,29 @@ img{
  	margin: 66px;
  }
 
+#menu{
+	position: relative;
+  display: inline-block;
+ }
+
+#menubtn{
+	background-color: #4CAF50;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+#menubt-content{
+	display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
 #home{
 	display: flex;
   flex-direction: row;
@@ -39,7 +62,7 @@ img{
   padding: 0px 12px;
   width: 149.12px;
   height: 42px;
-  background: rgb(200 187 218);
+  background: rgba(255, 255, 255, 0.24);
   border-radius: 182px;
   font-size: 36px;
   text-decoration: none;
@@ -53,7 +76,7 @@ img{
   padding: 0px 12px;
   width: 196.12px;
   height: 42px;
-  background: rgb(203 188 215);
+  background: rgba(255, 255, 255, 0.24);
   border-radius: 182px;
   font-size: 36px;
   text-decoration: none;
