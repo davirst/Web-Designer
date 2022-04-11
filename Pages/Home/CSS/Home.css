@@ -4,10 +4,8 @@ body{
   background-repeat: no-repeat, repeat;
   background-position: center;
   background-size: cover;
-  height: 1500px;
 	color: black;
   display: block;
-  margin: 8px;
 	overflow-wrap: break-word;
 }
 
@@ -31,7 +29,6 @@ img{
     border-color: black;
     background-color: #bcf5cb8a;
     display: block;
-    margin-block-start: 8.33em;
     font-size: 50px;
  }
 
