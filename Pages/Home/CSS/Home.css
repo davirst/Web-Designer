@@ -25,25 +25,17 @@ img{
  }
 
  h4{
-    /* border-style: dashed;
-    border-color: black;
-    background-color: #bcf5cb8a;
-    display: block;
-    font-size: 50px; */
-
-		display: flex;
-		flex-direction: row;
-		align-items: center;
-		padding: 0px 13px;
-
-		position: absolute;
-		width: 91.12px;
-		height: 33px;
-		left: 1072px;
-		top: 20px;
-
-		background: rgba(255, 255, 255, 0.24);
-		border-radius: 100px;
+	 display: flex;
+	 flex-direction: row;
+	 align-items: center;
+	 padding: 0px 13px;
+	 position: absolute;
+	 width: 387.12px;
+	 height: 47px;
+	 left: 1098px;
+	 top: 662px;
+	 background: rgba(255, 255, 255, 0.24);
+	 border-radius: 200px;
  }
 
  #table{
