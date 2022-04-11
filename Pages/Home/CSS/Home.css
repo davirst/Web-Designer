@@ -19,9 +19,17 @@ img{
  }
 
  h1{
- 	border-style: solid;
- 	border-color: black;
-  background-color: white;
+	display: flex;
+ 	flex-direction: row;
+ 	align-items: center;
+ 	padding: 0px 13px;
+ 	position: absolute;
+ 	width: 387.12px;
+ 	height: 47px;
+ 	left: 500px;
+ 	top: 40px;
+ 	background: rgba(255, 255, 255, 0.24);
+ 	border-radius: 200px;
  }
 
  h4{
