@@ -49,6 +49,10 @@ img{
 	background-color: #3e8e41;
 }
 
+#menu:hover #menubtn-content {
+	display: block;
+}
+
 #home{
 	display: flex;
   flex-direction: row;
