@@ -69,7 +69,8 @@ img{
 }
 
 #breakfast {
-	margin: 12em;
+	width: 500px;
+	align-content: center;
 }
 
 h1{
