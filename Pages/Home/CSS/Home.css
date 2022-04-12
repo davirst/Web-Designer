@@ -3,10 +3,6 @@ a{
 	text-decoration: none;
 }
 
-img{
- 	margin: 66px;
- }
-
 #breakfast {
 	justify-content: center;
 	display: flex;
