@@ -20,18 +20,19 @@ a{
    }
 
  #style1{
-  background-image: url("ss.jpg");
-  background-position: right top;
-  background-size: 218px;
-  background-repeat: no-repeat;
-  background-color: #d9bdd0;
-  position: absolute;
-  left: 38%;
-  top:19%;
-  border: 5px solid green;
-  width: 500px;
-  height: 500px;
-  z-index:1;
+	 background-image: url(ss.jpg);
+	 background-position: right top;
+	 position: absolute;
+	 left: 38%;
+	 top: 19%;
+	 border-radius: 38px;
+	 width: 500px;
+	 height: 500px;
+	 z-index: 1;
+	 min-height: 260px;
+	 padding-bottom: 80px;
+	 -moz-box-sizing: border-box;
+	 box-sizing: border-box;
 }
 
  #style2{
