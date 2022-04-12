@@ -1,0 +1,10 @@
+body{
+	background-image: url("bs.jpg");
+  background-repeat: no-repeat, repeat;
+  background-position: center;
+  background-size: cover;
+	color: black;
+  display: block;
+	overflow-wrap: break-word;
+	justify-content: center;
+}
