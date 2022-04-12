@@ -55,11 +55,11 @@ img{
 }
 
 #menubtn-content a:hover {
-	background-color: #f1f1f1
+	background-color: #c1c2dd
 }
 
 #menu:hover #menubtn {
-	background-color: #3e8e41;
+	background-color: #eacada;
 }
 
 #menu:hover #menubtn-content {
