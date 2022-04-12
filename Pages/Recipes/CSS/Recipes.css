@@ -3,6 +3,9 @@ a{
 	text-decoration: none;
 }
 
+.mainStyle {
+	margin: auto;
+}
  img{
  	  border-style: solid;
  	  border-color: black;
