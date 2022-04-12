@@ -1,69 +1,7 @@
-
-body{
-	background-image: url("bs.jpg");
-  background-repeat: no-repeat, repeat;
-  background-position: center;
-  background-size: cover;
-  height: 1500px;
-	color: black;
-  /*font-size: 50px;*/
-  }
-
-	a{
+a {
 		color: black;
 		text-decoration: none;
-	}
-
-	#home{
-		display: flex;
-	  flex-direction: row;
-	  align-items: center;
-	  padding: 0px 12px;
-	  position: absolute;
-	  width: 108.12px;
-	  height: 42px;
-	  left: 12px;
-	  top: 10px;
-	  background: rgb(193 194 221);
-	  border-radius: 182px;
-	  font-size: 36px;
-	  text-decoration: none;
-	  text-transform: uppercase;
-	}
-
-	#recipes{
-		display: flex;
-	  flex-direction: row;
-	  align-items: center;
-	  padding: 0px 12px;
-	  position: absolute;
-	  width: 149.12px;
-	  height: 42px;
-	  left: 165px;
-	  top: 10px;
-	  background: rgb(200 187 218);
-	  border-radius: 182px;
-	  font-size: 36px;
-	  text-decoration: none;
-	  text-transform: uppercase;
-	}
-
-	#nutrition{
-		display: flex;
-		flex-direction: row;
-		align-items: center;
-		padding: 0px 12px;
-		position: absolute;
-		width: 196.12px;
-		height: 42px;
-		left: 347px;
-		top: 10px;
-		background: rgb(203 188 215);
-		border-radius: 182px;
-		font-size: 36px;
-		text-decoration: none;
-		text-transform: uppercase;
-	}
+}
 
   #saying {
     border-color: indigo;
@@ -84,11 +22,11 @@ body{
     width:20%;
   }
 
-    p:hover{
+  p:hover {
     color: green;
   }
 
-  #table2{
+  #table2 {
     border-color: indigo;
     background-color: #c4bbda;
     border-top-style: double;
@@ -103,38 +41,26 @@ body{
     width:20%;
   }
 
-  #table2:hover{
+  #table2:hover {
     color: green;
   }
 
-  #table2 th{
+  #table2 th {
     border-bottom-style: dotted;
     text-transform: uppercase;
   }
 
-  #table2 td{
+  #table2 td {
     border-bottom-style: dotted;
   }
 
- img{
+ img {
  	  border-style: solid;
  	  border-color: black;
  }
 
- h1{
+ h2 {
  	  border-style: solid;
  	  border-color: black;
   	background-color: white;
- }
-
- h4{
- 	  border-style: dashed;
-    border-color: black;
-    background-color: #bcf5cb8a;
-    display: block;
-    margin-block-start: 18.33em;
-    margin-block-end: 1.33em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    font-size: 50px;
  }
