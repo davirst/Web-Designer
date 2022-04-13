@@ -3,7 +3,7 @@ body{
   background-size: cover;
   color: black;
   justify-content: center;
-  overflow: hidden;
+  overflow: auto;
   margin: 0px;
   display: block;
 }

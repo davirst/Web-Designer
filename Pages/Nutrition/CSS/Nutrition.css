@@ -60,7 +60,15 @@ a {
  }
 
  h2 {
- 	  border-style: solid;
- 	  border-color: black;
-  	background-color: white;
+	 display: flex;
+   flex-direction: row;
+   align-items: center;
+   padding: 0px 10px;
+   width: 472.12px;
+   height: 75px;
+   background: rgba(255, 255, 255, 0.24);
+   border-radius: 189px;
+   margin: auto;
+   font-size: 140%;
+   text-transform: uppercase;
  }
