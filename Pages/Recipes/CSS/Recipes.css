@@ -21,48 +21,49 @@ a{
 
  #style1{
 	 background-image: url(ss.jpg);
-	 background-position: right top;
-	 position: absolute;
-	 left: 38%;
-	 top: 19%;
-	 border-radius: 38px;
-	 width: 500px;
-	 height: 500px;
-	 z-index: 1;
-	 min-height: 260px;
-	 padding-bottom: 80px;
-	 -moz-box-sizing: border-box;
-	 box-sizing: border-box;
+   background-repeat: no-repeat;
+	 background-color: #bfbfbd;
+   position: absolute;
+   background-size: 504px 329px;
+   left: 38%;
+   top: 19%;
+   border-radius: 38px;
+   width: 500px;
+   height: 500px;
+   z-index: 1;
+   min-height: 260px;
+   padding-bottom: 80px;
+   box-sizing: border-box;
 }
 
  #style2{
-  background-image: url("egg.jpg");
-  background-position: right top;
-  background-size: 312px;
-  background-repeat: no-repeat;
-  background-color: #d9bdd0;
-  position: absolute;
-  left: 42%;
-  top:24%;
-  border: 5px solid red;
-  width: 500px;
-  height: 500px;
-  z-index:2;
+	 background-image: url(egg.jpg);
+	 background-position: right top;
+	 background-size: 533px;
+	 background-repeat: no-repeat;
+	 background-color: #14181b;
+	 position: absolute;
+	 left: 42%;
+	 top: 24%;
+	 border-radius: 38px;
+	 width: 500px;
+	 height: 500px;
+	 z-index: 2;
 }
 
  #style3{
-  background-image: url("bacon.jpg");
-  background-position: right top;
-  background-size: 312px;
-  background-repeat: no-repeat;
-  background-color: #d9bdd0;
-  position: absolute;
-  left: 45%;
-  top:30%;
-  border: 5px solid black;
-  width: 500px;
-  height: 500px;
-  z-index:3;
+	 background-image: url(bacon.jpg);
+	 background-position: right top;
+	 background-size: 530px;
+	 background-repeat: no-repeat;
+	 background-color: #bfa395;
+	 position: absolute;
+	 left: 45%;
+	 top: 30%;
+	 border-radius: 38px;
+	 width: 500px;
+	 height: 500px;
+	 z-index: 3;
 }
 
 #style1:hover,#style2:hover,#style3:hover{
@@ -74,38 +75,45 @@ a{
 }
 
  h2{
-  color: black;
+  color: #ffffff;
   text-align: left;
  }
 
+ #h2style3{
+	 color: black;
+	 text-align: left;
+ }
+
  p{
-  color: black;
-  text-align: left;
+	 color: #ffffff;
+   text-align: left;
+   position: absolute;
+   top: 64%;
  }
 
 
  #instruct1 {
-    text-align: left;
-    color: black;
-    font-size: 25px;
-    position: absolute;
-    top: 44%;
+	 text-align: left;
+	 color: #ffffff;
+	 font-size: 15px;
+	 position: absolute;
+	 top: 73%;
 }
 
-#instruct2 {
-    text-align: left;
-    color: black;
-    font-size: 25px;
+	#instruct2 {
+		text-align: left;
+    color: #ffffff;
+    font-size: 15px;
     position: absolute;
-    top: 36%;
-}
+    top: 73%;
+	}
 
 #instruct3 {
-    text-align: left;
-    color: black;
-    font-size: 23px;
-    position: absolute;
-    top: 220px;
+	text-align: left;
+	color: #ffffff;
+	font-size: 15px;
+	position: absolute;
+	top: 383px;
 }
 
 #style1:target{
