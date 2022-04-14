@@ -1,9 +1,5 @@
 body{
   background-image: url(bs.jpg);
-  background-size: cover;
-  color: black;
-  justify-content: center;
-  overflow: auto;
-  margin: 0px;
-  display: block;
+  background-repeat: no-repeat;
+  background-size: 100%;
 }

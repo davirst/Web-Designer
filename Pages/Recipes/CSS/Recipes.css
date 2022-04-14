@@ -22,13 +22,13 @@ a{
  #style1{
 	 background-image: url(ss.jpg);
    background-repeat: no-repeat;
-	 background-color: #bfbfbd;
-   position: absolute;
+   background-color: #bfbfbd;
+   position: fixed;
    background-size: 504px 329px;
-   left: 38%;
+   left: 25%;
    top: 19%;
    border-radius: 38px;
-   width: 500px;
+   width: 328px;
    height: 500px;
    z-index: 1;
    min-height: 260px;
@@ -38,17 +38,17 @@ a{
 
  #style2{
 	 background-image: url(egg.jpg);
-	 background-position: right top;
-	 background-size: 533px;
-	 background-repeat: no-repeat;
-	 background-color: #14181b;
-	 position: absolute;
-	 left: 42%;
-	 top: 24%;
-	 border-radius: 38px;
-	 width: 500px;
-	 height: 500px;
-	 z-index: 2;
+   background-position: right top;
+   background-size: 533px;
+   background-repeat: no-repeat;
+   background-color: #14181b;
+   position: fixed;
+   left: 34%;
+   top: 24%;
+   border-radius: 38px;
+   width: 350px;
+   height: 517px;
+   z-index: 2;
 }
 
  #style3{
@@ -57,12 +57,12 @@ a{
 	 background-size: 530px;
 	 background-repeat: no-repeat;
 	 background-color: #bfa395;
-	 position: absolute;
+	 position: fixed;
 	 left: 45%;
 	 top: 30%;
 	 border-radius: 38px;
-	 width: 500px;
-	 height: 500px;
+	 width: 338px;
+	 height: 520px;
 	 z-index: 3;
 }
 
@@ -75,7 +75,7 @@ a{
 }
 
  h2{
-  color: #ffffff;
+  color: black;
   text-align: left;
  }
 
