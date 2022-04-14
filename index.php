@@ -1,5 +1,5 @@
 <?php
 
-include_once("assign1.html")
+include_once("Pages/Home/Home.html")
 
 ?>

@@ -1,0 +1,125 @@
+a{
+	color: black;
+	text-decoration: none;
+}
+
+#mainStyle {
+	margin: auto;
+}
+ img{
+ 	  border-style: solid;
+ 	  border-color: black;
+ }
+
+   .header{
+    padding: 15px;
+    text-align: center;
+    background: #1abc9c;
+    color: white;
+    font-size: 14px;
+   }
+
+ #style1{
+	 background-image: url(ss.jpg);
+   background-repeat: no-repeat;
+   background-color: #bfbfbd;
+   position: fixed;
+   background-size: 504px 329px;
+   left: 25%;
+   top: 19%;
+   border-radius: 38px;
+   width: 328px;
+   height: 500px;
+   z-index: 1;
+   min-height: 260px;
+   padding-bottom: 80px;
+   box-sizing: border-box;
+}
+
+ #style2{
+	 background-image: url(egg.jpg);
+   background-position: right top;
+   background-size: 533px;
+   background-repeat: no-repeat;
+   background-color: #14181b;
+   position: fixed;
+   left: 34%;
+   top: 24%;
+   border-radius: 38px;
+   width: 350px;
+   height: 517px;
+   z-index: 2;
+}
+
+ #style3{
+	 background-image: url(bacon.jpg);
+	 background-position: right top;
+	 background-size: 530px;
+	 background-repeat: no-repeat;
+	 background-color: #bfa395;
+	 position: fixed;
+	 left: 45%;
+	 top: 30%;
+	 border-radius: 38px;
+	 width: 338px;
+	 height: 520px;
+	 z-index: 3;
+}
+
+#style1:hover,#style2:hover,#style3:hover{
+  z-index: 5;
+}
+
+#style1:target,#style2:target,#style3:target{
+  z-index: 4;
+}
+
+ h2{
+  color: black;
+  text-align: left;
+ }
+
+ #h2style3{
+	 color: black;
+	 text-align: left;
+ }
+
+ p{
+	 color: #ffffff;
+   text-align: left;
+   position: absolute;
+   top: 64%;
+ }
+
+
+ #instruct1 {
+	 text-align: left;
+	 color: #ffffff;
+	 font-size: 15px;
+	 position: absolute;
+	 top: 73%;
+}
+
+	#instruct2 {
+		text-align: left;
+    color: #ffffff;
+    font-size: 15px;
+    position: absolute;
+    top: 73%;
+	}
+
+#instruct3 {
+	text-align: left;
+	color: #ffffff;
+	font-size: 15px;
+	position: absolute;
+	top: 383px;
+}
+
+#style1:target{
+  display: -moz-box;
+  border: 2px solid #D4D4D4;
+  position: absolute;
+  color: red;
+  z-index: 9999;
+}

@@ -1,0 +1,75 @@
+a {
+		color: black;
+		text-decoration: none;
+}
+
+  #saying {
+		border-color: indigo;
+    font-size: 58px;
+    font-style: oblique;
+    background-color: #f5d5bc66;
+    padding: 20px;
+    overflow: auto;
+    border-top-style: double;
+    border-bottom-style: double;
+    position: fixed;
+    left: 14%;
+    top: 19%;
+    height: 323px;
+    z-index: 1;
+    margin: 5% auto;
+    float: left;
+    width: 20%;
+  }
+
+  p:hover {
+    color: green;
+  }
+
+  #table2 {
+		border-color: indigo;
+    background-color: #c4bbda;
+    border-top-style: double;
+    position: fixed;
+    left: 43%;
+    top: 19%;
+    width: 114px;
+    height: 372px;
+    z-index: 2;
+    margin: 5% auto;
+    float: left;
+    width: 20%;
+  }
+
+  #table2:hover {
+    color: green;
+  }
+
+  #table2 th {
+    border-bottom-style: dotted;
+    text-transform: uppercase;
+  }
+
+  #table2 td {
+    border-bottom-style: dotted;
+		text-align: center;
+  }
+
+ img {
+ 	  border-style: solid;
+ 	  border-color: black;
+ }
+
+ h2 {
+	 display: flex;
+   flex-direction: row;
+   align-items: center;
+   padding: 0px 10px;
+   width: 472.12px;
+   height: 75px;
+   background: rgba(255, 255, 255, 0.24);
+   border-radius: 189px;
+   margin: auto;
+   font-size: 140%;
+   text-transform: uppercase;
+ }
