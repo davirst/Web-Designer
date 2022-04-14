@@ -1,7 +1,5 @@
-<script>
-// When the user clicks on <div>, open the popup
+// When the user clicks on <div>, open the hint
 function hintFunction() {
-  var hint = document.getElementById("hint");
+  var hint = document.getElementById("myhint");
   hint.classList.toggle("show");
 }
-</script>
