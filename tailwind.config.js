@@ -12,14 +12,14 @@ module.exports = {
       xl: '1440px',
     },
 
-    colors: {
-      'blue': '#0089ED',
-      'lightBlue': '#2196F3',
-      'white': '#FFFFFF',
-      'lightGray': '#8D8D8D',
-      'black': '#000000',
-      'secondBlack': '#00204A',
-    },
+    // colors: {
+    //   'blue': '#0089ED',
+    //   'lightBlue': '#2196F3',
+    //   'white': '#FFFFFF',
+    //   'lightGray': '#8D8D8D',
+    //   'black': '#000000',
+    //   'secondBlack': '#00204A',
+    // },
 
     container: {
       sm: '480px',
