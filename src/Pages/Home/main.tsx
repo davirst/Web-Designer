@@ -8,21 +8,24 @@ import breakfastImage from "./picsofbreakfast.jpg";
 
 function MainPage() {
     return (
-        <>
+        <div className="flex-auto">
             <MenuButton />
-            <Header />
+            <Header text="My Idea On Meals" />
 
-            <div id = "breakfast">
+            <div className="flex justify-center">
                 <img src={breakfastImage} alt="" useMap="#tablet_area"/>
+
+                <Maplayout/>
             </div>
 
-            <Button onClick={() => alert('Hidden items in the picture')} variant="outlined">
-                Hint
-            </Button>
+            <div className="flex justify-center">
+                <Button onClick={() => alert('Hidden items in the picture')} variant="outlined">
+                    Hint
+                </Button>
+            </div>
 
-            <Maplayout />
             <Footer />
-        </>
+        </div>
     )
 }
 
