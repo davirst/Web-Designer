@@ -27,3 +27,9 @@ yarn-error.log*
 
 #No IDE settings
 /.idea
+
+tailwind.config.js
+tsconfig.json
+
+package.json
+package-lock.json
