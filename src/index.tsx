@@ -4,13 +4,19 @@ import { RouterProvider } from 'react-router-dom';
 import './index.scss';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import { ThemeProvider, CssBaseline } from '@mui/material';
+import theme from '../src/theme/Theme';
+
 
 const root = ReactDOM.createRoot(
     document.getElementById('root') as HTMLElement,
 );
 root.render(
     <React.StrictMode>
-        <RouterProvider router={App} />
+        <ThemeProvider theme={theme}>
+            <CssBaseline />
+            <RouterProvider router={App}/>
+        </ThemeProvider>
     </React.StrictMode>,
 );
 
