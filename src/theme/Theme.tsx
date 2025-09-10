@@ -1,12 +1,20 @@
-import React from "react";
+import { createTheme } from "@mui/material";
 import BackgroundImage from "./bs.jpg";
 
-function BackgroundTheme() {
-    return (
-        <div className="bg-gradient-to-r from-blue-500 to-transparent">
-        <img className="bg-no-repeat flex align-middle items-center blur-0" src={BackgroundImage}/>
-        </div>
-    )
-}
+const theme = createTheme({
+    components: {
+        MuiCssBaseline: {
+            styleOverrides: {
+                body: {
+                    // margin: 0,
+                    // minHeight: '100vh',
+                    backgroundImage: `url(${BackgroundImage})`, // change to your image
+                    backgroundRepeat: 'no-repeat',
+                    backgroundSize: 'cover',
+                },
+            },
+        },
+    },
+});
 
-export default BackgroundTheme;
+export default theme;
