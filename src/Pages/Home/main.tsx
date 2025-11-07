@@ -13,13 +13,12 @@ function MainPage() {
             <Header text="My Idea On Meals" />
 
             <div className="flex justify-center">
-                <img src={breakfastImage} alt="" useMap="#tablet_area"/>
-
+                <img className="rounded-2xl" src={breakfastImage} alt="A list of breakfast items" useMap="#tablet_area"/>
                 <Maplayout/>
             </div>
 
-            <div className="flex justify-center">
-                <Button onClick={() => alert('Hidden items in the picture')} variant="outlined">
+            <div className="flex justify-center pt-2">
+                <Button className="hover:!bg-white !text-black !border-black" onClick={() => alert('Hidden items in the picture')} variant="outlined">
                     Hint
                 </Button>
             </div>
