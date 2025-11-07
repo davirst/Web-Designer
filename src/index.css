@@ -1,8 +1,18 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-@layer base {
-  html {
-    font-family: Poppins, "Saira SemiCondensed", sans-serif, serif;
-  }
+@import "tailwindcss";
+
+@theme {
+    --breakpoint-*: initial;
+    --breakpoint-sm: 480px;
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 1024px;
+    --breakpoint-xl: 1440px;
+
+    /* Container padding values */
+    --container-padding: 1rem;
+    --container-padding-sm: 2rem;
+    --container-padding-lg: 4rem;
+    --container-padding-xl: 5rem;
+    --container-padding-2xl: 6rem;
+
+    --color-gray-50: #E1E7EB;
 }
