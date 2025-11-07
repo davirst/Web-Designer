@@ -1,7 +1,7 @@
 import React from "react";
-import Header from "../../Components/Header/header";
-import Footer from "../../Components/Footer/footer";
-import MenuButton from "../../Components/Buttons/buttons";
+import Header from "../../Components/Header/header.tsx";
+import Footer from "../../Components/Footer/footer.tsx";
+import MenuButton from "../../Components/Buttons/buttons.tsx";
 
 function NutritionPage() {
     return (

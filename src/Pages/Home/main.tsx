@@ -1,9 +1,9 @@
 import React from 'react';
 import {Button} from "@mui/material";
-import Footer from "../../Components/Footer/footer";
-import Header from "../../Components/Header/header";
-import Maplayout from "../../Components/Maplayout/maplayout";
-import MenuButton from "../../Components/Buttons/buttons"
+import Footer from "../../Components/Footer/footer.tsx";
+import Header from "../../Components/Header/header.tsx";
+import Maplayout from "../../Components/Maplayout/maplayout.tsx";
+import MenuButton from "../../Components/Buttons/buttons.tsx";
 import breakfastImage from "./picsofbreakfast.jpg";
 
 function MainPage() {
