@@ -5,7 +5,8 @@ import { useNavigate } from 'react-router-dom';
 function MenuButton() {
     const navigate = useNavigate();
 
-    const goToHomePage = () => {
+    //When user clicks "To main page" sends them the history page of their personal attendance
+    const goToHomePage = async () => {
         navigate('/');
     };
     const goToRecipePage = () => {
