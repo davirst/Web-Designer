@@ -16,10 +16,10 @@ function MenuButton() {
         navigate('/nutrition');
     };
     return (
-        <div className="flex gap-1 justify-end p-2 border-b-2 ">
-            <Button variant="outlined" onClick={goToHomePage}>Home</Button>
-            <Button variant="outlined" onClick={goToRecipePage}>Recipes</Button>
-            <Button variant="outlined" onClick={goToNutritionPage}>Nutrition</Button>
+        <div className="flex gap-1 justify-end p-2 border-b-2 text-black">
+            <Button className="hover:!bg-white !text-black !border-black" variant="outlined" onClick={goToHomePage}>Home</Button>
+            <Button className="hover:!bg-white !text-black !border-black" variant="outlined" onClick={goToRecipePage}>Recipes</Button>
+            <Button className="hover:!bg-white !text-black !border-black" variant="outlined" onClick={goToNutritionPage}>Nutrition</Button>
         </div>
     )
 }
