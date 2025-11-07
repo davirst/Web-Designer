@@ -15,7 +15,7 @@ root.render(
         <ThemeProvider theme={theme}>
             <CssBaseline />
             <RouterProvider router={App} />
-        // </ThemeProvider>
+        </ThemeProvider>
     </React.StrictMode>
 );
 
