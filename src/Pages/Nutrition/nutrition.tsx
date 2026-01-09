@@ -12,7 +12,7 @@ function NutritionPage() {
             <div className="flex h-64 justify-center space-x-6">
                 <div className="w-1/5 bg-pink-400 bg-opacity-20 h-64 pl-4 pr-4 flex leading-normal items-center text-5xl
                 break-normal border-double border-t-4 border-b-4 border-black hover:text-green-800">
-                    <div className="text-[clamp(1.5rem,5vw,3rem)] italic">Remember, you are what you eat.</div>
+                    <div className="md:text-3xl overflow-hidden text-[clamp(1.5rem,5vw,3rem)] italic">Remember, you are what you eat.</div>
                 </div>
 
                 <div className="justify-items-center w-1/3 h-64">

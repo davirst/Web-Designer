@@ -2,7 +2,7 @@ import React from "react";
 
 function Header({text}: {text: string}) {
     return (
-        <div className="header-container flex justify-center pt-2 pb-12"> {text} </div>
+        <div className="header-container flex justify-center pt-2 pb-12 text-3xl"> {text} </div>
     )
 }
 

@@ -7,7 +7,7 @@ const theme = createTheme({
             styleOverrides: {
                 body: {
                     // margin: 0,
-                    // minHeight: '100vh',
+                    minHeight: '100vh',
                     backgroundImage: `url(${BackgroundImage})`, // change to your image
                     backgroundRepeat: 'no-repeat',
                     backgroundSize: 'cover',
