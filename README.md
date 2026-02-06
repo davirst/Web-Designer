@@ -37,7 +37,7 @@ Note: All recipe instructions have been restructured to improve readability and 
 ---
 
 ## Technologies & Tools
-- HTML, CSS, JavaScript
+- HTML, CSS, TYPESCRIPT & VITE
 - CSS Hover Effects for recipe boxes
 - Styled tables for nutritional information
 - Interactive image mapping for the Home Page
