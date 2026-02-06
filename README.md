@@ -57,3 +57,5 @@ Note: All recipe instructions have been restructured to improve readability and 
 2. https://www.johnsonville.com/products/mild-italian-links.html
 3. https://www.eggs.ca/recipes/basic-fried-eggs
 4. https://www.foodnetwork.com/how-to/packages/food-network-essentials/how-to-cook-bacon
+
+Still in progress..... Don't expect much still in transition.
