@@ -10,6 +10,6 @@ export default defineConfig({
     ],
     server: {
         // host: 'Nutritionpage.com',
-        port: 3000, // same as CRA default
+        port: 3001,
     },
 });
