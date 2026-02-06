@@ -1,0 +1,1 @@
+var foo = 123;  // triggers no-var / TS warning
